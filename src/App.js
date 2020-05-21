@@ -5,7 +5,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h3>main component</h3>
+      <h3>#Todo's for the day</h3>
+      <form onSubmit>
+        <input type="text" />
+        <br />
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 }
